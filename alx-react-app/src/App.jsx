@@ -6,6 +6,7 @@ import WelcomeMessage from './components/WelcomeMessage'
 import MainContent from './components/MainContent'
 import Footer from './components/Footer'
 import Header from './components/Header'
+import UserProfile from './components/UserProfile'
 
 
 function App() {
@@ -14,10 +15,11 @@ function App() {
   return (
     <>
       <h1>Vite + React</h1>
-      <Header/>
-      <MainContent/>
-      <WelcomeMessage/>
-      <Footer/>
+      <Header />
+      <MainContent />
+      <UserProfile name="Felicien" age="25" bio="Loves hiking and photography" />
+      <WelcomeMessage />
+      <Footer />
     </>
   )
 }
