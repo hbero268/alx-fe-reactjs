@@ -3,6 +3,7 @@ import Header from './components/Header';
 import UserProfile from './components/UserProfile';
 import MainContent from './components/MainContent';
 import Footer from './components/Footer';
+import Counter from './components/Counter';
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         age={32} 
         bio="Professional travel blogger with a passion for architecture and local cuisine."
       />
+      <Counter />
       <MainContent />
       <Footer />
     </div>
