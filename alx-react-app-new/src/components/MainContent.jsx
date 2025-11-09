@@ -7,15 +7,17 @@ const MainContent = () => {
       backgroundColor: '#ffffff',
       margin: '10px',
       border: '1px solid #ddd',
-      borderRadius: '5px'
+      borderRadius: '5px',
+      boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
     }}>
       <h2 style={{ 
         color: 'darkgreen',
         textAlign: 'center',
         fontSize: '1.8rem',
-        marginBottom: '15px'
+        marginBottom: '15px',
+        textDecoration: 'underline'
       }}>
-        Welcome to Our Travel Platform
+        My Travel Destinations
       </h2>
       
       <div style={{ 
@@ -33,14 +35,16 @@ const MainContent = () => {
             color: 'navy',
             margin: '0 0 10px 0'
           }}>
-            Explore Destinations
+            Favorite Cities
           </h3>
           <p style={{ 
             lineHeight: '1.5',
             color: '#333',
-            margin: 0
+            margin: 0,
+            fontSize: '1.1rem',
+            fontWeight: 'bold'
           }}>
-            Discover amazing cities around the world with our travel guides.
+            I love to visit New York, Paris, and Tokyo.
           </p>
         </section>
 
