@@ -3,21 +3,17 @@ import React from 'react';
 const MainContent = () => {
   return (
     <main style={{ 
-      padding: '30px',
-      backgroundColor: '#ecf0f1',
-      minHeight: '400px',
-      border: '1px solid #bdc3c7',
-      borderRadius: '8px',
-      margin: '0 20px 20px 20px',
-      boxShadow: 'inset 0 2px 5px rgba(0,0,0,0.1)'
+      padding: '20px',
+      backgroundColor: '#ffffff',
+      margin: '10px',
+      border: '1px solid #ddd',
+      borderRadius: '5px'
     }}>
       <h2 style={{ 
-        color: '#2c3e50',
+        color: 'darkgreen',
         textAlign: 'center',
-        fontSize: '2rem',
-        marginBottom: '25px',
-        textDecoration: 'underline',
-        textDecorationColor: '#3498db'
+        fontSize: '1.8rem',
+        marginBottom: '15px'
       }}>
         Welcome to Our Travel Platform
       </h2>
@@ -25,45 +21,47 @@ const MainContent = () => {
       <div style={{ 
         display: 'flex',
         flexDirection: 'column',
-        gap: '20px'
+        gap: '15px'
       }}>
         <section style={{ 
-          backgroundColor: 'white',
-          padding: '20px',
-          borderRadius: '8px',
-          borderLeft: '5px solid #e74c3c'
+          backgroundColor: '#f0f8ff',
+          padding: '15px',
+          borderRadius: '5px',
+          border: '1px solid #cce7ff'
         }}>
           <h3 style={{ 
-            color: '#e74c3c',
-            marginBottom: '10px'
+            color: 'navy',
+            margin: '0 0 10px 0'
           }}>
             Explore Destinations
           </h3>
           <p style={{ 
-            lineHeight: '1.6',
-            color: '#2c3e50'
+            lineHeight: '1.5',
+            color: '#333',
+            margin: 0
           }}>
-            Discover breathtaking cities around the globe with our curated travel guides and recommendations.
+            Discover amazing cities around the world with our travel guides.
           </p>
         </section>
 
         <section style={{ 
-          backgroundColor: 'white',
-          padding: '20px',
-          borderRadius: '8px',
-          borderLeft: '5px solid #2ecc71'
+          backgroundColor: '#f0fff0',
+          padding: '15px',
+          borderRadius: '5px',
+          border: '1px solid #ccffcc'
         }}>
           <h3 style={{ 
-            color: '#27ae60',
-            marginBottom: '10px'
+            color: 'darkgreen',
+            margin: '0 0 10px 0'
           }}>
             Travel Tips
           </h3>
           <p style={{ 
-            lineHeight: '1.6',
-            color: '#2c3e50'
+            lineHeight: '1.5',
+            color: '#333',
+            margin: 0
           }}>
-            Get insider tips on the best times to visit, local cuisine, and hidden gems in each city.
+            Get the best travel tips and recommendations for your journey.
           </p>
         </section>
       </div>

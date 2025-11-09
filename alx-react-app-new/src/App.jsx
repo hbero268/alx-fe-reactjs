@@ -7,11 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App" style={{ 
-      minHeight: '100vh',
-      backgroundColor: '#f5f5f5',
-      fontFamily: 'Arial, sans-serif'
-    }}>
+    <div className="App">
       <Header />
       <UserProfile 
         name="John Traveler" 

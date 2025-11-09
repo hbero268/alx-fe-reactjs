@@ -3,43 +3,31 @@ import React from 'react';
 const UserProfile = (props) => {
   return (
     <div style={{ 
-      border: '2px solid #e0e0e0', 
-      padding: '20px', 
-      margin: '15px',
-      borderRadius: '10px',
-      backgroundColor: '#f9f9f9',
-      boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
-      transition: 'transform 0.2s ease-in-out'
+      border: '1px solid gray', 
+      padding: '10px', 
+      margin: '10px',
+      borderRadius: '5px',
+      backgroundColor: '#f8f9fa'
     }}>
       <h2 style={{ 
-        color: '#2c3e50', 
-        fontSize: '1.8rem',
-        marginBottom: '15px',
-        borderBottom: '2px solid #3498db',
-        paddingBottom: '8px'
+        color: 'blue',
+        fontSize: '1.5rem',
+        margin: '0 0 10px 0'
       }}>
         {props.name}
       </h2>
       <p style={{ 
-        fontSize: '1.1rem',
-        margin: '8px 0',
-        color: '#34495e'
+        margin: '5px 0',
+        fontSize: '1rem'
       }}>
         Age: <span style={{ 
-          fontWeight: 'bold', 
-          color: '#e74c3c',
-          fontSize: '1.2rem'
+          fontWeight: 'bold',
+          color: 'black'
         }}>{props.age}</span>
       </p>
       <p style={{ 
-        fontSize: '1rem',
-        lineHeight: '1.5',
-        color: '#7f8c8d',
-        fontStyle: 'italic',
-        backgroundColor: '#ecf0f1',
-        padding: '12px',
-        borderRadius: '5px',
-        borderLeft: '4px solid #3498db'
+        margin: '5px 0',
+        fontSize: '1rem'
       }}>
         Bio: {props.bio}
       </p>

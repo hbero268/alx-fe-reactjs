@@ -5,22 +5,19 @@ const Footer = () => {
   
   return (
     <footer style={{ 
-      backgroundColor: '#2c3e50',
+      backgroundColor: '#333',
       color: 'white',
       textAlign: 'center',
-      padding: '25px 20px',
-      marginTop: '30px',
-      borderTop: '5px solid #3498db'
+      padding: '20px',
+      marginTop: '20px',
+      borderTop: '3px solid #666'
     }}>
       <div style={{ 
         maxWidth: '1200px',
-        margin: '0 auto',
-        display: 'flex',
-        flexDirection: 'column',
-        gap: '15px'
+        margin: '0 auto'
       }}>
         <p style={{ 
-          margin: 0,
+          margin: '0 0 10px 0',
           fontSize: '1.1rem',
           fontWeight: 'bold'
         }}>
@@ -30,7 +27,7 @@ const Footer = () => {
         <p style={{ 
           margin: 0,
           fontSize: '0.9rem',
-          opacity: 0.8
+          color: '#ccc'
         }}>
           © {currentYear} My Favorite Cities. All rights reserved.
         </p>
@@ -38,29 +35,29 @@ const Footer = () => {
         <div style={{ 
           display: 'flex',
           justifyContent: 'center',
-          gap: '20px',
-          marginTop: '10px'
+          gap: '15px',
+          marginTop: '15px'
         }}>
           <span style={{ 
-            padding: '8px 15px',
-            backgroundColor: '#34495e',
-            borderRadius: '20px',
+            padding: '5px 10px',
+            backgroundColor: '#555',
+            borderRadius: '15px',
             fontSize: '0.8rem'
           }}>
             Travel
           </span>
           <span style={{ 
-            padding: '8px 15px',
-            backgroundColor: '#34495e',
-            borderRadius: '20px',
+            padding: '5px 10px',
+            backgroundColor: '#555',
+            borderRadius: '15px',
             fontSize: '0.8rem'
           }}>
-            Adventure
+            Cities
           </span>
           <span style={{ 
-            padding: '8px 15px',
-            backgroundColor: '#34495e',
-            borderRadius: '20px',
+            padding: '5px 10px',
+            backgroundColor: '#555',
+            borderRadius: '15px',
             fontSize: '0.8rem'
           }}>
             Explore
