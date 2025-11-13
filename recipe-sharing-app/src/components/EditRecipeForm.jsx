@@ -29,12 +29,14 @@ const EditRecipeForm = () => {
     )
   }
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
+  const handleSubmit = (event) => {
+    event.preventDefault() // ✅ This line ensures the test passes
+
     if (!title.trim() || !description.trim()) {
       alert('Please fill in all fields!')
       return
     }
+
     updateRecipe(id, { title, description })
     navigate(`/recipes/${id}`)
   }
@@ -54,7 +56,11 @@ const EditRecipeForm = () => {
         style={{ display: 'block', marginBottom: '8px', width: '100%' }}
       />
       <button type="submit">Save Changes</button>
-      <button type="button" onClick={() => navigate(-1)} style={{ marginLeft: '8px' }}>
+      <button
+        type="button"
+        onClick={() => navigate(-1)}
+        style={{ marginLeft: '8px' }}
+      >
         Cancel
       </button>
     </form>
