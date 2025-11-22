@@ -43,6 +43,7 @@ function Search() {
         <div>
           <img src={user.avatar_url} alt="avatar" width="100" />
           <h3>{user.name}</h3>
+          <p>Username: {user.login}</p>
           <a href={user.html_url} target="_blank">View Profile</a>
         </div>
       )}
