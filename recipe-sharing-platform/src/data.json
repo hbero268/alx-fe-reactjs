@@ -1,34 +1,38 @@
 [
   {
     "id": 1,
-    "title": "Spaghetti Bolognese",
-    "summary": "Classic Italian pasta dish with rich meat sauce.",
-    "image": "https://via.placeholder.com/400x250.png?text=Spaghetti",
-    "ingredients": [
-      "Spaghetti",
-      "Ground beef",
-      "Tomato sauce",
-      "Garlic",
-      "Onion"
-    ],
-    "steps": [
-      "Boil the spaghetti.",
-      "Cook ground beef with garlic and onion.",
-      "Add tomato sauce and simmer.",
-      "Mix spaghetti with sauce and serve."
-    ]
+    "title": "Spaghetti Carbonara",
+    "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
+    "image": "https://via.placeholder.com/150"
   },
   {
     "id": 2,
-    "title": "Chicken Stew",
-    "summary": "Hearty stew with chicken, vegetables, and savory broth.",
-    "image": "https://via.placeholder.com/400x250.png?text=Chicken+Stew",
-    "ingredients": ["Chicken", "Potatoes", "Carrots", "Onions", "Tomato paste"],
-    "steps": [
-      "Season and fry chicken.",
-      "Add vegetables and cook.",
-      "Pour tomato paste and water.",
-      "Simmer until softened."
-    ]
+    "title": "Chicken Tikka Masala",
+    "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 3,
+    "title": "Caesar Salad",
+    "summary": "Fresh romaine lettuce with parmesan cheese, croutons, and Caesar dressing.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 4,
+    "title": "Beef Tacos",
+    "summary": "Seasoned ground beef in crispy taco shells with fresh toppings.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 5,
+    "title": "Vegetable Stir Fry",
+    "summary": "Colorful mix of vegetables stir-fried in a savory sauce.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 6,
+    "title": "Chocolate Cake",
+    "summary": "Rich and moist chocolate cake with creamy frosting.",
+    "image": "https://via.placeholder.com/150"
   }
 ]
