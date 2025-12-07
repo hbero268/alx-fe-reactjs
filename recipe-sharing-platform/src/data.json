@@ -3,36 +3,97 @@
     "id": 1,
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "400g spaghetti",
+      "200g bacon or pancetta",
+      "4 large eggs",
+      "100g Parmesan cheese",
+      "Black pepper to taste",
+      "Salt for pasta water"
+    ],
+    "instructions": "Cook spaghetti in salted boiling water. Fry bacon until crispy. Beat eggs with grated Parmesan. Drain pasta, mix with bacon, remove from heat, and quickly stir in egg mixture. Season with black pepper and serve immediately."
   },
   {
     "id": 2,
     "title": "Chicken Tikka Masala",
     "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "500g chicken breast",
+      "1 cup yogurt",
+      "2 tbsp tikka masala spice",
+      "400g tomato sauce",
+      "1 cup heavy cream",
+      "2 tbsp butter",
+      "1 onion, diced",
+      "3 cloves garlic"
+    ],
+    "instructions": "Marinate chicken in yogurt and spices for 2 hours. Grill chicken until cooked. Sauté onion and garlic in butter, add tomato sauce and cream. Simmer for 10 minutes, add grilled chicken, and cook for 5 more minutes. Serve with rice or naan."
   },
   {
     "id": 3,
     "title": "Caesar Salad",
     "summary": "Fresh romaine lettuce with parmesan cheese, croutons, and Caesar dressing.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "1 head romaine lettuce",
+      "1/2 cup Caesar dressing",
+      "1/2 cup Parmesan cheese",
+      "1 cup croutons",
+      "2 anchovy fillets (optional)"
+    ],
+    "instructions": "Wash and chop romaine lettuce. Toss with Caesar dressing. Top with grated Parmesan cheese and croutons. Add anchovies if desired. Serve immediately."
   },
   {
     "id": 4,
     "title": "Beef Tacos",
     "summary": "Seasoned ground beef in crispy taco shells with fresh toppings.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "500g ground beef",
+      "1 packet taco seasoning",
+      "8 taco shells",
+      "1 cup shredded lettuce",
+      "1 cup diced tomatoes",
+      "1 cup shredded cheese",
+      "Sour cream and salsa"
+    ],
+    "instructions": "Brown ground beef in a skillet. Add taco seasoning and water, simmer until thickened. Warm taco shells. Fill shells with beef and top with lettuce, tomatoes, cheese, sour cream, and salsa."
   },
   {
     "id": 5,
     "title": "Vegetable Stir Fry",
     "summary": "Colorful mix of vegetables stir-fried in a savory sauce.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "2 cups broccoli florets",
+      "1 bell pepper, sliced",
+      "1 carrot, sliced",
+      "1 cup snap peas",
+      "3 tbsp soy sauce",
+      "2 tbsp sesame oil",
+      "2 cloves garlic, minced",
+      "1 tsp ginger, grated"
+    ],
+    "instructions": "Heat sesame oil in a wok. Add garlic and ginger, stir for 30 seconds. Add vegetables and stir-fry for 5-7 minutes. Add soy sauce and toss to coat. Serve hot over rice."
   },
   {
     "id": 6,
     "title": "Chocolate Cake",
     "summary": "Rich and moist chocolate cake with creamy frosting.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "2 cups flour",
+      "2 cups sugar",
+      "3/4 cup cocoa powder",
+      "2 tsp baking soda",
+      "1 tsp salt",
+      "2 eggs",
+      "1 cup milk",
+      "1 cup vegetable oil",
+      "1 cup hot water"
+    ],
+    "instructions": "Preheat oven to 350°F. Mix dry ingredients. Add eggs, milk, and oil, beat well. Stir in hot water. Pour into greased pans. Bake 30-35 minutes. Cool completely before frosting."
   }
 ]
